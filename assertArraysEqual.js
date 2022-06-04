@@ -4,7 +4,6 @@ const assertArraysEqual = function(arr1, arr2) {
       console.log("❌ Assertion Failed: Arrays do not match")
       return false
   } else {
-    
   } 
   } 
   console.log("✔ Assertion Passed: Arrays match")
@@ -21,9 +20,3 @@ const assertArraysEqual = function(arr1, arr2) {
 (assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]), true); // => true
 (assertArraysEqual(["1", "2", "3"], ["1", "2", 3]), false); // => false
 (assertArraysEqual([1], ["1"]), false);
-
-
-
-
-
-
