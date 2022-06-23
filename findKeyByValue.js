@@ -6,13 +6,12 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const findKeyByValue = function(input, show) {
+const findKeyByValue = function (input, show) {
   for (const item in input) {
     if (input[item] === show) {
-    return item;
+      return item;
+    }
   }
-  console.log(input[item]);
-}
 };
 //loop over the object
 //find the show that matches
