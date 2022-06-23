@@ -3,7 +3,6 @@ const assertArraysEqual = function(arr1, arr2) {
     if (arr1[i] !== arr2[i]) {
       console.log("❌ Assertion Failed: Arrays do not match")
       return false
-  } else {
   } 
   } 
   console.log("✔ Assertion Passed: Arrays match")
