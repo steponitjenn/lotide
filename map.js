@@ -25,3 +25,4 @@ console.log(results1);
 
 
 console.log(assertArraysEqual(map(["take", "your", "protein", "pills"], ["t", "y", "p", "p"])))
+console.log(assertArraysEqual(map(["and", "put", "your", "helmet", "on"] ["a", "p", "y", "h", "o"])))
