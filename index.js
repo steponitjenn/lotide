@@ -35,5 +35,4 @@ module.exports = {
   eqObjects: eqObjects,
   countOnly: countOnly,
   countLetters: countLetters,
-
 };
